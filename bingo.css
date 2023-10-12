@@ -65,7 +65,7 @@ form {
   transform: translateY(-50%);
 }
 
-.cell.selected {
+.cell.clicked {
   border: solid 2px red;
 }
 

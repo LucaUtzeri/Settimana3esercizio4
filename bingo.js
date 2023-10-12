@@ -17,7 +17,7 @@ const createCells = function () {
     numbCellContent.innerText = i + 1;
 
     createCells.onclick = function (e) {
-      e.currentTarget.classList.add("selected");
+      e.currentTarget.classList.add("clicked");
     };
     numbCellDiv.appendChild(numbCellContent);
     tabellone.appendChild(numbCellDiv);
